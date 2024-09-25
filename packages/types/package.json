@@ -1,0 +1,13 @@
+{
+  "name": "@timeline/types",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "typegen": "npx pocketbase-typegen --db ../../apps/server/pb_data/data.db --out pocketbaseTypes.ts"
+  },
+  "dependencies": {
+    "pocketbase": "^0.21.5"
+  }
+}

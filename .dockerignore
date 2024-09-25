@@ -1,0 +1,9 @@
+fly.toml
+Dockerfile
+.dockerignore
+node_modules
+.git
+apps/client/.output
+apps/client/.vinxi
+apps/client/node_modules
+apps/server/pb_data
